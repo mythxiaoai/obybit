@@ -14,7 +14,7 @@ const getContentType = (name: string) => {
 }
 
 const fileNameMap = {
-  '/': 'index.html'
+  '/en': 'index.html',
 }
 
 async function handleRequest(request: Request): Promise<Response> {
